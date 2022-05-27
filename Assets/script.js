@@ -1,4 +1,4 @@
-// Store API Key in a global variable.
+// Stores API Key in a global variable.
 var apiKey = "1ed16faaaf4ec7519219183d278b85c8";
 
 var cityFormEl = document.getElementById("cityForm");
