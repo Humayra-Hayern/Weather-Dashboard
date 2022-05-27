@@ -1,5 +1,5 @@
 # 06 Server-Side APIs: Weather-Dashboard
-task
+For this project, I had to build a weather dashboard by retrieving data from an API showing the weather forecast for multiple cities. I utilised HTML, CSS, Bootstrap, JavaScript and Moment.js in order for this application to run.
 
 
 ## User Story
@@ -34,7 +34,7 @@ The image below displays the website's appearance and functionality.
 ![forecast](https://user-images.githubusercontent.com/95111780/170735628-f1d0e71f-a8c0-4deb-9fdf-bb17e7a21eeb.PNG)
 
 ## Link
-* https://humayra-hayern.github.io/Weather-Dashboard/
+* 
 
 ## Credits
 University of Birmingham Bootcamp
