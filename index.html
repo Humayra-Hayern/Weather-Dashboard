@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- ADD -->
+    <!-- Bootstrap & CSS linked here. -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
@@ -20,7 +20,7 @@
     </header>
 
     <div class="container-fluid">
-      <!-- ADD -->
+      <!-- Search Box. -->
       <div class="row content-row">
         <div class="col-12 col-md-3 bg-light pt-4">
           <h4>Search a Location</h4>
@@ -31,14 +31,14 @@
             </div>
             <ul id="pastSearches" class="bg-light pt-4"></ul>
           </form>
-        <!-- ADD -->
+        <!-- Local storage used to display previous searches. -->
         <div id ="previous-searches-card" class="card">
           <ul id="previous-searches" class="list-group list-group-flush bg-light"></ul>
         </div>
       </div>
-      <!-- ADD -->
+      <!-- Weather Cards. -->
       <div id="weather-cards" class="col-12 col-md-9 hide">
-        <!-- ADD -->
+        <!-- Current day's weather forecast for searched city. -->
         <div id="todays-weather-card" class="card row col-12">
           <div class="card-body">
             <h5 id="cityName" class="card-title"></h5>
@@ -52,7 +52,7 @@
           </div>
         </div>
 
-        <!-- ADD -->
+        <!-- Forecast info for the next 5 days for searched city. -->
         <div id="future-weather-cards" class="row">
           <div class="card" style="width: 14rem">
             <div class="card-body">
@@ -103,7 +103,7 @@
       </div>
     </div>
    
-    <!-- ADD -->
+    <!-- Moment.js & JavaScript linked here. -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./Assets/script.js"></script>
   </body>
