@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ADD -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link href="./Assets/style.css" rel="stylesheet" />
+    <title>Weather Forecast</title>
+  </head>
+  <body>
+    <header>
+      <h1>Weather Forecast</h1>
+    </header>
 
+    <div class="container-fluid">
+      <!-- ADD -->
+      <div class="row content-row">
+        <div class="col-12 col-md-3 bg-light pt-4">
+          <h4>Search a Location</h4>
+            <form id="cityForm" class="input-group mb-3">
+            <input type="text" id="cityLocation" class="form-control" placeholder="Town/City" aria-label="Town/City" aria-describedby="button-addon2" />
+            <div class="input-group-append">
+            <button type="submit" id="button-addon2">Search</button>
+            </div>
+            <ul id="pastSearches" class="bg-light pt-4"></ul>
+          </form>
+        <!-- ADD -->
+        <div id ="previous-searches-card" class="card">
+          <ul id="previous-searches" class="list-group list-group-flush bg-light"></ul>
+        </div>
+      </div>
+      <!-- ADD -->
+      <div id="weather-cards" class="col-12 col-md-9 hide">
+        <!-- ADD -->
+        <div id="todays-weather-card" class="card row col-12">
+          <div class="card-body">
+            <h5 id="cityName" class="card-title"></h5>
+            <h5 id="today" class="card-title">Today</h5>
+            <h5 id="date0" class="card-subtitle mb-2"></h5>
+            <h6 id="temp0" class="card-subtitle mb-2"></h6>
+            <h6 id="wind0" class="card-subtitle mb-2"></h6>
+            <h6 id="humid0" class="card-subtitle mb-2"></h6>
+            <h6 class="card-subtitle mb-2">UV Index: <span id="uvIndex"></span></h6>
+            <img id="icon0"/>
+          </div>
+        </div>
+
+        <!-- ADD -->
+        <div id="future-weather-cards" class="row">
+          <div class="card" style="width: 14rem">
+            <div class="card-body">
+              <h5 id="date1" class="card-title"></h5>
+              <h6 id="temp1" class="card-subtitle mb-2"></h6>
+              <h6 id="wind1" class="card-subtitle mb-2"></h6>
+              <h6 id="humid1" class="card-subtitle mb-2"></h6>
+              <img id="icon1"/>
+             </div>
+          </div>
+          <div class="card" style="width: 14rem">
+            <div class="card-body">
+              <h5 id="date2" class="card-title"></h5>
+              <h6 id="temp2" class="card-subtitle mb-2"></h6>
+              <h6 id="wind2" class="card-subtitle mb-2"></h6>
+              <h6 id="humid2" class="card-subtitle mb-2"></h6>
+              <img id="icon2"/>
+             </div>
+          </div>
+          <div class="card" style="width: 14rem">
+            <div class="card-body">
+              <h5 id="date3" class="card-title"></h5>
+              <h6 id="temp3" class="card-subtitle mb-2"></h6>
+              <h6 id="wind3" class="card-subtitle mb-2"></h6>
+              <h6 id="humid3" class="card-subtitle mb-2"></h6>
+              <img id="icon3"/>
+             </div>
+          </div>
+          <div class="card" style="width: 14rem">
+            <div class="card-body">
+              <h5 id="date4" class="card-title"></h5>
+              <h6 id="temp4" class="card-subtitle mb-2"></h6>
+              <h6 id="wind4" class="card-subtitle mb-2"></h6>
+              <h6 id="humid4" class="card-subtitle mb-2"></h6>
+              <img id="icon4"/>
+             </div>
+          </div>
+          <div class="card" style="width: 14rem">
+            <div class="card-body">
+              <h5 id="date5" class="card-title"></h5>
+              <h6 id="temp5" class="card-subtitle mb-2"></h6>
+              <h6 id="wind5" class="card-subtitle mb-2"></h6>
+              <h6 id="humid5" class="card-subtitle mb-2"></h6>
+              <img id="icon5"/>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <!-- ADD -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Assets/script.js"></script>
+  </body>
+</html>

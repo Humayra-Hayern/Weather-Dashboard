@@ -1,1 +1,95 @@
-
+body {
+    background-color: white;
+    align-content: center;
+  }
+  
+  header {
+    text-align: center;
+    background-color: rgb(198, 139, 247);
+    color: white;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  #search-column {
+    box-sizing: border-box;
+    width: auto;
+    padding-bottom: 10px;
+  }
+  
+  #future-weather-cards .card {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  #uvIndex {
+    padding: 2px;
+    border-radius: 5px;
+  }
+  
+  .lowRisk {
+    background-color: rgb(82, 255, 47);
+  }
+  
+  .moderateRisk {
+    background-color: rgb(255, 255, 0);
+  }
+  
+  .highRisk {
+    background-color: rgb(255, 165, 0);
+  }
+  
+  .veryHighRisk {
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }
+  
+  .extremeRisk {
+    background-color: rgb(81, 0, 128);
+    color: white;
+  }
+  
+  li {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    color: white;
+    border-color: rgb(198, 139, 247);
+    background-color: rgb(198, 139, 247);
+  }
+  
+  li:hover {
+    border-color: white;
+    cursor: pointer;
+  }
+  
+  button {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(198, 139, 247);
+    margin-left: 5px;
+  }
+  
+  button:hover {
+    border-color: white;
+  }
+  
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  #todays-weather-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
