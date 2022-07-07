@@ -1,4 +1,4 @@
-# 06). Server-Side APIs: Weather-Dashboard
+# 06) Server-Side APIs: Weather-Dashboard
 For this project, I had to build a weather dashboard by retrieving data from an API showing the weather forecast for multiple cities. I utilised HTML, CSS, Bootstrap, JavaScript and Moment.js in order for this application to run.
 
 
